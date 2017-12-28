@@ -12,7 +12,7 @@
   src: local('☺'), url('../fonts/GothaProMed.woff') format('woff'), url('../fonts/GothaProMed.ttf') format('truetype'), url('../fonts/GothaProMed.svg') format('svg');
   font-weight: 300;
   font-style: normal;
-}
+} 
 
 @font-face {
   font-family: 'Gotham Pro';
@@ -1195,5 +1195,90 @@
 }
 
 
+.mYmodal {
+  position: fixed;
+  z-index: 1050;
+  display: none;
+  outline: 0;
+  opacity: 0;
+      background: url(../images/bg9849sdaf.png) repeat center;
+    background-size: cover;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transition: all 400ms;
+  padding: 69px 67px;
+  width: 70%;
+  max-width: 490px;
+  min-width: 300px;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateX(-50%) translateY(-50%);
+  &.large {
+    max-width: 768px;
+    overflow-y: scroll;
+    max-height: 480px;
+  }
+}
+
+.mYmodal-content {
+  text-align: center;
+  h4 {
+    font-size: 29px;
+    line-height: 36px;
+    margin: 30px 30px 0px;
+    color: #28292d;
+    font-family: "Gilroy - Extra Bold";
+  }
+  h3 {
+    color: #28292d;
+    font-family: "Gilroy - Extra Bold";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+
+.overl-h {
+  overflow: hidden
+}
+
+
+.modal-btn {
+  cursor: pointer
+}
+
+.popup__close { 
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+  background: url('../images/shape-39-copy-5.png') no-repeat;
+  opacity: 0.5;
+  background-size: 100%;
+  filter: invert(100%);
+}
+
+.popup__close:hover {
+  opacity: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  background: #000;
+  opacity: .62;
+  z-index: 1000
+}
+
+@import 'info/bootstrap1';
 @import 'info/bootstrap';
 @import 'info/main';

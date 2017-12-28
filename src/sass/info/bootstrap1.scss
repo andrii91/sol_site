@@ -1,12 +1,14 @@
-/* Document
-   ========================================================================== */
+// Colors
+$color-black: #000000;
+$color-white: #ffffff;
 
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
+$text-color-grey: #989898;
+$text-color-grey-darken: #878787;
 
+$color-light-grey: #f0f0f0;
+$color-dark-grey: #202020;
+$color-darker-grey: #181818;
+$color-blue: #26ddf5;
 html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -3993,24 +3995,7 @@ template {
 .span_1_of_12 {
   width: 6.041%; }
 
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url("../font/GothamPro-Medium.eot");
-  src: local("Gotham Pro Medium"), local("GothamPro-Medium"), url("../font/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("../font/GothamPro-Medium.woff") format("woff"), url("../font/GothamPro-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url("../font/GothamPro-Bold.eot");
-  src: local("Gotham Pro Bold"), local("GothamPro-Bold"), url("../font/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../font/GothamPro-Bold.woff") format("woff"), url("../font/GothamPro-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url("../font/GothamPro.eot");
-  src: local("Gotham Pro"), local("GothamPro"), url("../font/GothamPro.eot?#iefix") format("embedded-opentype"), url("../font/GothamPro.woff") format("woff"), url("../font/GothamPro.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+
 html {
   font-family: 'Gotham Pro', Helvetica, Arial;
   font-size: 16px;
