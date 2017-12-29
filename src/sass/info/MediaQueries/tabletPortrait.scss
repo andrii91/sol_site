@@ -1,8 +1,57 @@
 @import '../../mq';
 
 @media #{$tabletPortrait} {
-    @import '../mobile';
-  	& {
-     
-	}
+  //    @import '../mobile';
+  & {
+    .page-template-template_main header:before {
+      background-size: 65%;
+    }
+    .nav .menu {
+      display: none;
+    }
+    .datepicker--cell {
+      margin: 1px;
+    }
+    .datepicker-here {
+      max-width: 283px;
+    }
+    .datepicker--nav {
+      margin-bottom: 0;
+    }
+    .products-item img {
+      height: inherit;
+      width: 100%;
+    }
+    .col-lg-6.right {
+      padding-left: 15px;
+    }
+    .products-title {
+      color: #fff;
+      font-family: "Gotham Pro";
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 53px;
+      text-transform: uppercase;
+      margin-bottom: 80px;
+      margin-top: 55px;
+    }
+    .section-carousel .owl-dots .owl-dot.active span {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0;
+    }
+    .section-carousel .owl-dots .owl-dot {
+      margin: 0 3px;
+    }
+    .ml {
+      margin-left: 0;
+    }
+    .scoreboard-title {
+      font-size: 60px;
+    }
+    .contacts {
+      background-size: cover;
+    }
+  }
 }

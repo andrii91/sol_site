@@ -143,6 +143,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   z-index: 999;
+  display: none;
    &.light {
     .menu {
   list-style: none;
@@ -514,6 +515,7 @@ font-family: "Gotham Pro";
   img {
     height: 100%;
     width: inherit;
+    margin-bottom: -4px;
   }
 }
 
@@ -1111,7 +1113,7 @@ line-height: 1;
 
 /* flip speed goes here */
 .flipper {
-	transition: 0.6s;
+	transition: 1s;
 	transform-style: preserve-3d;
     display: block;
 	position: relative;
@@ -1157,7 +1159,7 @@ line-height: 1;
 	transform: rotateY(180deg);
 }
 
-.graduates-list {
+.graduates-list, .graduates-grid {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1311,4 +1313,242 @@ main {
   iframe {
     width: 100%;
   }
+}
+
+.grid-colum {
+  float: left;
+  width: 13%;
+  position: relative;
+    overflow: hidden;
+  position: absolute;
+    &:nth-child(1) {
+      height: 315px;
+      top: 0;
+      left: 0;
+    }
+    &:nth-child(2) {
+      height: 408px; 
+      top: 0;
+      left: 13%;
+    }
+    &:nth-child(3) {
+      height: 234px; 
+      top: 0;
+      left: 26%;
+    }
+    &:nth-child(4) {
+      height: 234px;
+      width: 10.7%;
+      top: 0;
+      left: 39%;
+    }
+    &:nth-child(5) {
+      height: 234px;
+      width: 11.3%;
+      top: 0;
+      left: 49.7%;
+    }
+    &:nth-child(6) {
+      height: 234px;
+      top: 0;
+      left: 61%;
+  }
+    &:nth-child(7) {
+      height: 363px;
+      top: 0;
+      left: 74%;
+    }
+    &:nth-child(8) {
+      height: 224px;
+      width: 12.9%;
+      top: 0;
+      left: 87%;
+    }
+    &:nth-child(9) {
+      height: 287px;
+      top: 315px;
+      left: 0%;
+    }
+    &:nth-child(10) {
+      height: 330px;
+      top: 408px;
+      left: 13%;
+    }
+    &:nth-child(11) {
+      height: 368px;
+      top: 234px;
+      left: 26%;
+    }
+    &:nth-child(12) {
+      height: 219px;
+      width: 10.7%;
+      top: 234px;
+      left: 39%;
+    }
+    &:nth-child(13) {
+      height: 219px;
+      width: 11.3%;
+      top: 234px;
+      left: 49.7%;
+    }
+    &:nth-child(14) {
+      height: 304px;
+      top: 234px;
+      left: 61%;
+    }
+    &:nth-child(15) {
+      height: 260px;
+      top: 363px;
+      left: 74%;
+    }
+    &:nth-child(16) {
+      height: 260px;
+      top: 224px;
+      left: 87%;
+      width: 12.9%;
+    }
+    &:nth-child(17) {
+      height: 294px;
+      top: 606px;
+      left: 0%;
+    }
+    &:nth-child(18) {
+      height: 260px;
+      top: 738px;
+      left: 13%;
+    }
+    &:nth-child(19) {
+      height: 298px;
+      top: 602px;
+      left: 26%;
+    }
+    &:nth-child(20) {
+      height: 532px;
+      top: 453px;
+      left: 39%;
+      width: 22%;
+    }
+    &:nth-child(21) {
+      height: 298px;
+      top: 538px;
+      left: 61%;
+    }
+    &:nth-child(22) {
+      height: 305px;
+      top: 623px;
+      left: 74%;
+    }
+    &:nth-child(23) {
+      height: 298px;
+      top: 538px;
+      left: 87%;
+      width: 12.9%;
+    }
+    &:nth-child(24) {
+      height: 315px;
+      top: 900px;
+      left: 0%;
+    }
+    &:nth-child(25) {
+      height: 438px;
+      top: 998px;
+      left: 13%;
+    }
+    &:nth-child(26) {
+      height: 315px;
+      top: 900px;
+      left: 26%;
+    }
+    &:nth-child(27) {
+      height: 230px;
+      top: 985px;
+      left: 39%;
+      width: 11.3%;
+    }
+    &:nth-child(28) {
+      height: 230px;
+      top: 985px;
+      left: 50.3%;
+      width: 10.7%;
+
+    }
+    &:nth-child(29) {
+      height: 332px;
+      top: 836px;
+      left: 61%;
+    }
+    &:nth-child(30) {
+      height: 240px;
+      top: 928px;
+      left: 74%;
+    }
+    &:nth-child(31) {
+      height: 285px;
+      top: 836px;
+      left: 87%;
+      width: 12.9%;
+    }
+    &:nth-child(32) {
+      height: 221px;
+      top: 1215px;
+      left: 0%;
+    }
+    &:nth-child(33) {
+      height: 221px;
+      top: 1215px;
+      left: 26%;
+    }
+    &:nth-child(34) {
+      height: 221px;
+      top: 1215px;
+      left: 39%;
+      width: 11.3%;
+    }
+    &:nth-child(35) {
+      height: 221px;
+      top: 1215px;
+      left: 50.3%;
+      width: 10.7%;
+
+    }
+    &:nth-child(36) {
+      height: 268px;
+      top: 1168px;
+      left: 61%;
+    }
+    &:nth-child(37) {
+      height: 268px;
+      top: 1168px;
+      left: 74%;
+    }
+
+    &:nth-child(38) {
+      height: 315px;
+      top: 1121px;
+      left: 87%;
+      width: 12.9%;
+    }
+//  min-height: 221px;
+  .flipper {
+    
+    .front {
+     /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+      z-index: 1;
+      background-size: 100%;*/
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.graduates-grid {
+  min-height: 133vh;
+  min-height: 1436px;
+  max-width: 1920px;
+  margin: 0 auto;
 }

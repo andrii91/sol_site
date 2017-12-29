@@ -1,3 +1,135 @@
 & {
-  
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+}
+  .header-title {
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+  .wrap {
+    padding: 0 15px;
+  }
+  .logo-large {
+    background-size: 55%;
+  }
+  .page-template-template_main header {
+    padding: 60px 0;
+  }
+  .nav .menu {
+    display: none;
+  }
+
+
+  .header-info {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0;
+    margin-bottom: 90px;
+  }
+  .that, .developments {
+    padding: 100px 0;
+  }
+  .section-carousel .owl-dots .owl-dot.active span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0;
+}
+  .section-carousel .owl-dots .owl-dot { 
+    margin: 0 3px;
+  }
+  .section-carousel {
+    margin-top: 60px;
+  }
+  .section-carousel .item .carousel-captcha {
+    bottom: 10px;
+    left: 10px;
+  }
+  .products-item img {
+    width: 100%;
+    height: auto;
+  }
+  .col-lg-6.right {
+    padding-left: 0;
+  }
+  .products-title {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .products {
+    padding: 0 15px;
+  }
+  .col-lg-6.right:before {
+    display: none;
+  }
+
+  .item-list li {
+    min-width: 119px;
+    margin:  0 5px 40px;
+  }
+  .item-list li:last-child {
+      margin-left: 10px;
+  }
+  .blog, .community {
+    padding: 100px 0;
+  }
+  .blog-title, .community-title, .scoreboard-title, .store-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 1;
+  }
+  .blog-item p {
+    br {
+      display: none;
+    }
+  }
+  .scoreboard {
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .scoreboard-img {
+    display: none;
+  }
+  .datepicker--cell {
+       margin: 0.7%;
+  }
+  .store {
+    padding: 100px 0 50px 0;
+  }
+  .store-price {
+    margin-bottom: 40px;
+  }
+  .mYmodal {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .contacts {
+    padding: 100px 0;
+    background-size: cover;
+  }
+  .contacts-map {
+    iframe {
+      height: 315px;
+    }
+  }
+  .datepicker-here {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+  .registration-btn {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    padding: 21px 10px 17px;
+  }
+  .graduates-xs-none {
+    display: none;
+  }
 }

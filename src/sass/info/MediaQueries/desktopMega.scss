@@ -3,6 +3,8 @@
 @media #{$desktopMega} {
     @import '../desktop';
     & {
-    	
+    	 .nav{
+        display: block;
+      }
     }
 }

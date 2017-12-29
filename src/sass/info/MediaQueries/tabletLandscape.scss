@@ -2,4 +2,7 @@
 
 @media #{$tabletLandscape} {
     @import '../desktop';
+  .store-title {
+    font-size: 80px;
+  }
 }

@@ -3,7 +3,12 @@
 @media #{$desktop} {
     @import '../desktop';
     & {
-	  
+      .nav {
+        display: none;
+      }
+      main {
+        overflow: hidden;
+      }
     }
 }
 
