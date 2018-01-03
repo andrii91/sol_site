@@ -2,7 +2,7 @@
   .xs-first {
     -ms-flex-order: -1;
     order: -1;
-}
+  }
   .header-title {
     font-size: 25px;
     line-height: 1;
@@ -28,7 +28,8 @@
     letter-spacing: 0;
     margin-bottom: 90px;
   }
-  .that, .developments {
+  .that,
+  .developments {
     padding: 100px 0;
   }
   .section-carousel .owl-dots .owl-dot.active span {
@@ -36,8 +37,8 @@
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0;
-}
-  .section-carousel .owl-dots .owl-dot { 
+  }
+  .section-carousel .owl-dots .owl-dot {
     margin: 0 3px;
   }
   .section-carousel {
@@ -69,15 +70,19 @@
 
   .item-list li {
     min-width: 119px;
-    margin:  0 5px 40px;
+    margin: 0 5px 40px;
   }
   .item-list li:last-child {
-      margin-left: 10px;
+    margin-left: 10px;
   }
-  .blog, .community {
+  .blog,
+  .community {
     padding: 100px 0;
   }
-  .blog-title, .community-title, .scoreboard-title, .store-title {
+  .blog-title,
+  .community-title,
+  .scoreboard-title,
+  .store-title {
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 45px;
@@ -97,7 +102,7 @@
     display: none;
   }
   .datepicker--cell {
-       margin: 0.7%;
+    margin: 0.7%;
   }
   .store {
     padding: 100px 0 50px 0;
@@ -132,4 +137,103 @@
   .graduates-xs-none {
     display: none;
   }
+  .products-link {
+    margin: 0;
+  }
+  .header-title.large {
+    font-size: 40px;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+  }
+  .that_comunity-img {
+    width: 670px;
+    &:after,
+    &:before {
+      animation: none;
+    }
+  }
+  .that_comunity .wrap:before {
+    font-size: 95px;
+    line-height: 1;
+  }
+  .that_comunity-bottom p.small span {
+    font-size: 10px;
+    line-height: 1;
+  }
+  .that_comunity {
+    padding-bottom: 100px;
+    br {
+      display: none;
+    }
+  }
+  .benefits {
+    padding: 50px 0;
+  }
+  .benefits-title {
+    font-size: 25px;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  .mt95 {
+    margin-top: 0;
+  }
+  .benefits-img {
+    margin-top: 30px;
+  }
+  .selection-title {
+    font-size: 55px;
+    line-height: 1;
+    margin: 0 0 30px;
+  }
+  .selection-item {
+    padding-left: 0;
+  }
+  .selection .col-lg-5, .selection .col-lg-6, .selection .col-lg-7 {
+    padding: 0 15px;
+  }
+  .selection-img .before {
+    width: 100%;
+    font-size: 109px;
+    line-height: 1;
+    left: 0;
+  }
+  .selection-img {
+    display: none;
+  }
+  .selection {
+    padding-bottom: 50px;
+    br {
+      display: none;
+    }
+  }
+  .participate {
+    background-size: cover;
+    padding: 100px 0;
+    br {
+      display: none;
+    }
+  }
+  .hgroup-participate h2 {
+    font-size: 75px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+  .that_comunity {
+    margin-bottom: 20px;
+  }
+  .participate-info span {
+    letter-spacing: 0;
+  }
+  .participate-item_top {
+    margin-bottom: 50px;
+  }
+
+  .form-box {
+    padding: 35px 25px;
+    margin-top: 20px;
+  }
+  
+
 }

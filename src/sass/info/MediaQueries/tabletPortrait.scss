@@ -53,5 +53,80 @@
     .contacts {
       background-size: cover;
     }
+     .products-link {
+      margin: 10px;
+    }
+    .header-title.large {
+      font-size: 95px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+      .that_comunity-img {
+        width: 670px;
+        
+      }
+    .that_comunity-item {
+      margin-top: 30px;
+    }
+    .that_comunity-item, .that_comunity-bottom {
+      display: inline-block;
+      max-width: 49%;
+    }
+    .that_comunity {
+      padding-bottom: 100px;
+    }
+    #benefits-carousel {
+      margin: 0 auto;
+    }
+    .benefits-img {
+      display: none;
+    }
+    .selection-img {
+      width: 661px;
+    }
+    .selection-title {
+      font-size: 52px;
+      line-height: 1;
+    }
+    .selection-item {
+      padding-left: 0;
+      br {
+        display: none;
+      }
+    }
+    
+    .selection-img .before {
+        font-size: 170px;
+        line-height: 200px;
+        text-align: left;
+    }
+    .selection .col-lg-5, .selection .col-lg-6, .selection .col-lg-7 {
+      padding: 0 15px;
+    }
+    .selection-info p {
+      margin-bottom: 0;
+      br {
+        display: none;
+      }
+    }
+    .selection-info {
+      position: relative;
+      z-index: 4;
+    }
+    .selection {
+      padding-bottom: 100px;
+    }
+    .participate {
+      br {
+        display: none;
+      }
+    }
+    .form-box {
+      padding: 71px 25px;
+    }
+    .participate-img {
+      margin-bottom: 240px;
+    }
   }
 }

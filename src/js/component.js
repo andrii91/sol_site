@@ -90,7 +90,7 @@ $(document).ready(function () {
     if (id) {
       nav.find('li').removeClass('active');
       nav.find('a[href="#' + id + '"]').parent('li').addClass('active');
-      if (id == 'products' || id == 'scoreboard' || id == 'contacts') {
+      if (id == 'products' || id == 'scoreboard' || id == 'contacts' || id == 'participate') {
         nav.addClass('light');
       } else {
         nav.removeClass('light');
@@ -111,7 +111,7 @@ $(document).ready(function () {
   if ($(window).width() > 1200) {
     $(document).scroll(function () {
       y = $(this).scrollTop();
-      console.log(y);
+//      console.log(y);
       var translateXHeader = y * 10;
       var scaleHeader = y / 10;
       var opacityHeader = 1 - y / 50;
@@ -147,7 +147,7 @@ $(document).ready(function () {
 
       })
 
-      if (y > 100) {
+      if (y > 50) {
         $('.logo-large').css({
           'bacground': 'url("images/logo-large.svg") no-repeat center',
           'transition': '0.5s',
@@ -159,14 +159,14 @@ $(document).ready(function () {
           'left': '0',
           'right': '0',
           'width': '100%',
-          'z-index': '555',
+          'z-index': '0',
           'transition': '0.2s',
           'transform': 'scale(1.2)',
           'opacity': '0'
         })
 
         $('.page-template-home main').css({
-          'margin-top': '100px',
+          'margin-top': '50px',
         })
 
 
@@ -234,6 +234,9 @@ $(document).ready(function () {
   });
 
   $('#blog-carousel .owl-dots .owl-dot span').each(function (index) {
+    $(this).text('0' + (index + 1));
+  });
+  $('#benefits-carousel .owl-dots .owl-dot span').each(function (index) {
     $(this).text('0' + (index + 1));
   });
 
