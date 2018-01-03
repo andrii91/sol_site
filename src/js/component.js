@@ -90,7 +90,7 @@ $(document).ready(function () {
     if (id) {
       nav.find('li').removeClass('active');
       nav.find('a[href="#' + id + '"]').parent('li').addClass('active');
-      if (id == 'products' || id == 'scoreboard' || id == 'contacts' || id == 'participate') {
+      if (id == 'products' || id == 'scoreboard' || id == 'contacts' || id == 'participate' || id == 'project') {
         nav.addClass('light');
       } else {
         nav.removeClass('light');
