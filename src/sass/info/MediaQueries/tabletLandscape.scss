@@ -1,21 +1,30 @@
 @import '../../mq';
 
 @media #{$tabletLandscape} {
-    @import '../desktop';
+  @import '../desktop';
   .store-title {
     font-size: 80px;
   }
   .benefits-img {
-      display: block;
-    }
-  .that_comunity-item, .that_comunity-bottom {
-      display: block;
-      max-width: 100%;
-    }
+    display: block;
+  }
+  .that_comunity-item,
+  .that_comunity-bottom {
+    display: block;
+    max-width: 100%;
+  }
   .scoreboard {
     background-size: cover;
   }
   .ml {
     margin-left: 8%;
-}
+  }
+  .that-item:before {
+    width: 793px;
+    font-size: 225px;
+    top: 24%;
+    right: 50%;
+  }
+
+
 }
