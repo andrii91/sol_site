@@ -272,10 +272,32 @@
     .project-info {
       padding-left: 10%;
       letter-spacing: 4px;
+      br {
+        display: none;
+      }
     }
     .test-title {
       font-size: 70px;
       line-height: 1;
+      text-align: left;
+    }
+    .test-info {
+      text-align: left;
+      margin-left: 0;
+    }
+    .project {
+      background-size: cover;
+      position: relative;
+      &:before {
+        content: "";
+        background: #000;
+        opacity: 0.4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
     }
     .test-img {
       width: 670px;
@@ -304,6 +326,21 @@
     }
     &.page-template-template_graduates header:before {
       top: 63%;
+    }
+    &.page-template-template_contact header {
+      background: url(../images/group-45d.png) no-repeat 84% 50%;
+      background-size: cover;
+    }
+    .test {
+      position: relative;
+      text-align: center;
+      .test-img {
+        margin: 0;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        z-index: -1;
+      }
     }
   }
 }

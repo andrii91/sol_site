@@ -325,26 +325,57 @@
   .project {
     padding: 100px 0;
     background-size: cover;
+    position: relative;
+    &:before {
+      content: "";
+      background: #000;
+      opacity: 0.4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
   }
   .project-title {
-    font-size: 65px;
+    font-size: 43px;
     line-height: 1;
+    margin-bottom: 10px;
+    &:after,
+    &:before {
+      display: none;
+    }
   }
   .project-info {
     padding-left: 4%;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 20px;
+    &:after,
+    &:before {
+      display: none;
+    }
     br {
       display: none;
     }
   }
+  .project-item h4 {
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 30px;
+  }
+  .project-item p {
+    font-size: 12px;
+    line-height: 1;
+  }
   .test {
     padding: 100px 0;
+    position: relative;
+    text-align: center;
   }
   .test-item {
-    padding-left: 10%;
+    padding-left: 0%;
     margin-top: 10%;
     position: relative;
     z-index: 56;
@@ -365,8 +396,15 @@
     letter-spacing: 0;
     padding: 10px 44px;
   }
-  .test-img {
-    width: 670px;
+
+  .test-info {
+    font-size: 22px;
+    margin-bottom: 60px;
+    text-align: left;
+    
+    br {
+      display: none;
+    }
   }
   .test-img .before-text {
     font-size: 110px;
@@ -403,11 +441,32 @@
       display: none;
     }
   }
-  .grid-sizer, .grid-item {
+  .grid-sizer,
+  .grid-item {
     width: 25%;
   }
   &.page-template-template_graduates header:before {
     height: 272px;
     top: 64%;
+  }
+  &.page-template-template_contact .contact-title {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  &.page-template-template_contact .contact-subtitle {
+    font-size: 25px;
+    text-align: right;
+  }
+  &.page-template-template_contact header {
+    background: url(../images/group-45d.png) no-repeat 75% 85%;
+  }
+  .test-img {
+    margin: 0;
+    position: absolute;
+    top: -245px;
+    left: -115px;
+    width: 670px;
+    z-index: -1;
+    transform: scale(0.5);
   }
 }
