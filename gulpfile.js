@@ -38,7 +38,7 @@ gulp.task('js_v', function() {
             'src/js/vendor/datepicker.min.js',
             'src/js/vendor/owl.carousel.min.js',
             'src/js/vendor/masonry.pkgd.min.js',
-            // 'src/js/vendor/jquery.animateNumber.min.js',
+            'src/js/vendor/imagesloaded.pkgd.js',
             // 'src/js/vendor/jquery.scrollTo.js',
             // 'src/js/vendor/jquery.waypoints.min.js',
             // 'src/js/vendor/jqueryrotate.2.1.js',
