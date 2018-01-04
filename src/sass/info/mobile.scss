@@ -3,6 +3,10 @@
     -ms-flex-order: -1;
     order: -1;
   }
+  &.page-template-template_main header:before {
+    width: 100%;
+    background-size: 100%;
+  }
   .header-title {
     font-size: 22px;
     line-height: 1.5;
@@ -176,7 +180,7 @@
     margin: 0;
   }
   .header-title.large {
-    font-size: 40px;
+    font-size: 36px;
     letter-spacing: 0;
     margin-bottom: 20px;
   }
@@ -327,11 +331,14 @@
     line-height: 1;
   }
   .project-info {
-    padding-left: 10%;
+    padding-left: 4%;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 20px;
+    br {
+      display: none;
+    }
   }
   .test {
     padding: 100px 0;
@@ -363,7 +370,10 @@
   }
   .test-img .before-text {
     font-size: 110px;
-    left: 0;
+    left: 50%;
+    width: 435px;
+    text-align: left;
+    transform: translateX(-50%);
   }
   &.page-template-template_about header .registration-btn {
     letter-spacing: 0;
@@ -392,5 +402,12 @@
     br {
       display: none;
     }
+  }
+  .grid-sizer, .grid-item {
+    width: 25%;
+  }
+  &.page-template-template_graduates header:before {
+    height: 272px;
+    top: 64%;
   }
 }

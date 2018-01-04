@@ -178,7 +178,7 @@
       margin: 10px;
     }
     .header-title.large {
-      font-size: 95px;
+      font-size: 90px;
       font-weight: 700;
       line-height: 1;
       letter-spacing: 0;
@@ -301,6 +301,9 @@
       br {
         display: none;
       }
+    }
+    &.page-template-template_graduates header:before {
+      top: 63%;
     }
   }
 }
